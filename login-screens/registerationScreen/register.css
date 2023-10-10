@@ -1,0 +1,83 @@
+.right {
+  font-family: Acumin Pro;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.right .head {
+  color: #283a97;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 136px;
+}
+.right .head1 {
+  margin-top: -20px;
+}
+
+.right form {
+  margin-left: 136px;
+}
+
+.right .head span {
+  color: #f15d2a;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  height: 19px;
+  background-color: #f6f6f6;
+  border: 1px solid #e8e8e8;
+}
+
+
+@media screen and (max-width: 768px) {
+  .right{
+    padding-top: unset !important;
+    height: 85vh !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .starter-header{
+    display: flex;
+  }
+  .container > img, .container > .upper-content, .right > div> img{
+    display: none;
+  }
+  .lower-content{
+    width: unset !important;
+  }
+  .form-group input{
+    width: 90%;
+  }
+
+  .form-group{
+    margin: 30px auto;
+  }
+
+
+.right form {
+  margin-left: unset;
+}
+
+  .right .head{
+    margin: unset;
+  }
+  /* .lower-content-container{
+    margin-top: auto;
+  } */
+}

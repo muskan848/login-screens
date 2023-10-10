@@ -1,0 +1,86 @@
+.right {
+  font-family: Acumin Pro;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.right .head {
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 136px;
+}
+
+.right .head1 {
+  margin-top: -20px;
+}
+
+.right .head span {
+  color: #f15d2a;
+  font-family: Acumin Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+
+.middle-content {
+  margin-left: 136px;
+}
+
+.tag-radio {
+  display: none;
+}
+
+.tag-label {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+  color: #bdbdbd;
+  font-family: Acumin Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px;
+  width: 22rem;
+  border: 1px solid transparent;
+}
+
+/* Style for selected tag */
+.tag-radio:checked + .tag-label {
+  border: 1px solid #283a97;
+  color: #283a97;
+}
+
+@media screen and (max-width: 768px) {
+  .right {
+    padding-top: unset !important;
+    height: 85vh !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .middle-content .tag-label {
+    width: unset;
+  }
+
+  .right .head {
+    margin-left: unset;
+  }
+  .starter-header {
+    display: flex;
+  }
+  .container > img,
+  .container > .upper-content,
+  .right > div > img {
+    display: none;
+  }
+  .middle-content {
+    margin: unset;
+  }
+}

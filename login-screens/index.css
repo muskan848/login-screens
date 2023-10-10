@@ -1,0 +1,59 @@
+
+.right{
+  padding-top: 80px;
+}
+
+.right .heading {
+  margin-top: 44px;
+  margin-left: 135px;
+  color: #000;
+  font-family: Acumin Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+}
+
+.right .heading span {
+  color: #f15d2a;
+  font-family: Acumin Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.right input {
+  width: 357px;
+  height: 44px;
+  margin-left: 135px;
+  font-family: Acumin Pro;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background: #eef2f2;
+  text-transform: capitalize;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+
+.right input:focus{
+  border: none;
+  outline: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .cheap-container{
+    display: flex;
+  }
+  .right .heading, .right input {
+    margin: unset;
+  }
+  .right input{
+    width: 90%;
+  }
+  .container img{
+    height: 50% !important;
+  }
+}

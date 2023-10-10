@@ -1,0 +1,100 @@
+
+.right .heading {
+  margin-left: 135px;
+  font-family: Acumin Pro;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.right .heading span {
+  font-family: Acumin Pro;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.right .boxes input {
+  width: 50px;
+  height: 48px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #000;
+  font-family: Acumin Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  background-color: #f6f6f6;
+  border: 1px solid #e8e8e8;
+  margin-left: 21px;
+}
+
+.boxes {
+  display: flex;
+  margin-left: 115px;
+}
+
+.right .head {
+  margin-top: 8px;
+  margin-left: 135px;
+  color: #000;
+  font-family: Acumin Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+}
+
+.right .head span {
+  color: #f15d2a;
+  font-family: Acumin Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.resent-otp-box{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(42, 211, 42);
+  width: 85%;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+  .right{
+    height: 80vh !important;
+  }
+  .container > img, .container > .upper-content{
+    display: none;
+  }
+  .right .head, .right .heading, .right .boxes{
+    margin-left: unset;
+  }
+  .right .heading{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .right .boxes{
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  .right .head{
+    margin: unset;
+    padding: unset;
+  }
+  .resent-otp-box{
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .lower-content-container{
+    margin-top: auto;
+  }
+}
